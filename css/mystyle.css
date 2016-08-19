@@ -8,6 +8,14 @@
 
 }
 
+.header {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 html {
   height: 100%;
 }
@@ -20,16 +28,20 @@ body {
 
 ul {
   columns: 4;
+  list-style-type: none;
+}
+
+li:before {
+  content: "- ";
 }
 
 .jumbotron {
   opacity: .8;
 }
 
-.header {
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.form-group {
+  width: 25%;
+}
+.gif {
+  float: right;
 }
