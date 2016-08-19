@@ -11,24 +11,28 @@
   <link rel="shortcut icon" href="img/ping_pong.ico" >
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="jumbotron special header">
         <h3>Let's play some Ping-Pong!</h3>
       </div>
       <div class="jumbotron special results">
-        <div class="gif">
-          <img src="img/cats.gif" alt="gif of cats playing ping pong" />
-        </div>
-        <form>
-          <div class="form-group">
-            <label for="">Please enter a number to start playing!</label>
-            <input id="userPing" class='form-control' name="name" value="">
+        <div class="rows">
+          <div class="col-xs-5">
+            <form>
+              <div class="form-group">
+                <label for="">Please enter a number to start playing!</label>
+                <input id="userPing" class='form-control' name="name" value="">
+              </div>
+                <button type="submit" type='button' name="button">Ping-Pong!</button>
+            </form>
+            <img src="img/cats.gif" alt="gif of cats playing ping pong" />
           </div>
-            <button type="submit" type='button' name="button">Ping-Pong!</button>
-          <ul>
+          <div class="col-xs-7">
+            <ul>
 
-          </ul>
-        </form>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>

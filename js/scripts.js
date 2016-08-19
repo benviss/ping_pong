@@ -1,5 +1,4 @@
 // Back End Logic
-
 function pingPong(number) {
   var pingArray = [];
   for (var i = 1; i <= number; i++) {
@@ -30,6 +29,7 @@ $(document).ready(function() {
     } else {
       alert('Please only enter a number')
     }
+
     event.preventDefault();
   });
 });
