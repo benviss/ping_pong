@@ -1,0 +1,35 @@
+.container  {
+  height: 100%;
+}
+
+.results {
+  margin-top: 30px;
+  min-height: 100%;
+
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: url('../img/pingpong.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  columns: 4;
+}
+
+.jumbotron {
+  opacity: .8;
+}
+
+.header {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
