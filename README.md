@@ -18,6 +18,7 @@ _A website that will take user input in the form of a number. The website will t
 - replace numbers divisible by 3 with the word 'ping': 3 : 'ping'
 - replace numbers divisible by 5 with the word 'pong': 5 : 'pong'
 - replace numbers divisible by 3 and 5 with the word 'ping-pong': 15 : 'ping'
+- display numbers when user submits their input: 5 : 1,2,ping,4,pong
 
 ## GitHub link
 https://github.com/benviss/ping_pong
