@@ -28,6 +28,7 @@ body {
 }
 
 ul {
+  text-align: center;
   columns: 4;
   list-style-type: none;
 }
@@ -38,4 +39,10 @@ li:before {
 
 .jumbotron {
   opacity: .7;
+}
+
+form {
+  text-align: center;
+  display: table;
+  margin: auto;
 }
